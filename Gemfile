@@ -44,10 +44,10 @@ group :development, :test do
 end
 
 group :production do
-  gem 'pg'
+  gem 'pg','0.18'
   gem 'rails_12factor'
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
-  
+
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

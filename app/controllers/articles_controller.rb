@@ -1,5 +1,6 @@
 class ArticlesController < ApplicationController
   def new
+<<<<<<< HEAD
     @article = Article.new
   end
 
@@ -16,6 +17,9 @@ class ArticlesController < ApplicationController
 
   def edit
     @article = Article.find(params[:id])
+=======
+    
+>>>>>>> d5d7224626639d727c7dab8af4b22115c1c7e246
   end
   def update
     @article = Article.find(params[:id])
@@ -45,3 +49,5 @@ class ArticlesController < ApplicationController
     params.require(:article).permit(:title, :text)
   end
 end
+
+# ~> -:1:in `<main>': uninitialized constant ApplicationController (NameError)

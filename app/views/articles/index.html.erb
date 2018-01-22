@@ -8,6 +8,7 @@
   <%= link_to 'New article', new_article_path %>
   <% @articles.each do |article| %>
     <tr>
+      <td><%= article.name %></td>
       <td><%= article.title %></td>
       <td><%= article.text %></td>
       <td><%= link_to '详情', article_path(article) %></td>

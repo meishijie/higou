@@ -1,11 +1,11 @@
 
-#-*- code:utf-8 -*-
-require 'nokogiri'
-require 'open-uri'
-# require 'rest-client'
-require 'sqlite3'
-require 'json'
-require 'timeout'
+# #-*- code:utf-8 -*-
+# require 'nokogiri'
+# require 'open-uri'
+# # require 'rest-client'
+# require 'sqlite3'
+# require 'json'
+# require 'timeout'
 
 class ArticlesController < ApplicationController
   def new

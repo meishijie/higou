@@ -13,9 +13,9 @@ class ArticlesController < ApplicationController
   end
 
   def index
-    # @articles = Article.all
+    @articles = Article.all
     puts '开始'
-    Getlrc.new("http://www.kuwo.cn/geci/artist_z.htm",'z')
+    # Getlrc.new("http://www.kuwo.cn/geci/artist_z.htm",'z')
   end
 
   def destroy
